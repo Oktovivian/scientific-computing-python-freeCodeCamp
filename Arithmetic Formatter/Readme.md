@@ -35,8 +35,8 @@ Output:
   40     -3800     19998      474
 ```
 
-- Rules
-- The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
+## Rules
+The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
 
 - Situations that will return an error:
   - If there are too many problems supplied to the function. The limit is five, anything more will return:
